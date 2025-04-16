@@ -16,7 +16,7 @@ vcpkg_cmake_configure(
 vcpkg_cmake_install()
 
 #vcpkg_cmake_config_fixup(PACKAGE_NAME "hello-world" CONFIG_PATH "share/exampleb")
-vcpkg_cmake_config_fixup()
+vcpkg_cmake_config_fixup(PACKAGE_NAME "exampleb")
 #vcpkg_fixup_pkgconfig()
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")

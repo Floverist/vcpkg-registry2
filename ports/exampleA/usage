@@ -1,5 +1,5 @@
-exampleA provides CMake targets:
+examplea provides CMake targets:
 
-find_package(exampleA CONFIG REQUIRED)
-target_link_libraries(main PRIVATE exampleA::exampleA)
+find_package(examplea CONFIG REQUIRED)
+target_link_libraries(main PRIVATE examplea::examplea)
 

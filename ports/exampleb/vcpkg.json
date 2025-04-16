@@ -1,5 +1,5 @@
 {
-  "name": "examplea",
+  "name": "exampleb",
   "version": "1.0.2",
   "description": "A sample C++ library designed to serve as a foundational example for a tutorial on packaging libraries with vcpkg.",
   "license": "MIT",

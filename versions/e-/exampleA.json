@@ -1,7 +1,7 @@
 {
   "versions": [
     {
-      "path": "$/ports/exampleA",
+      "git-tree": "1ba017b872dd949fd88d14da9a59e862f69d58e5",
       "version": "1.0.2",
       "port-version": 0
     }

@@ -1,6 +1,6 @@
 {
   "default": {
-    "vcpkg-sample-library": {
+	"exampleA": {
       "baseline": "1.0.2",
       "port-version": 0
     }

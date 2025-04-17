@@ -1,11 +1,19 @@
 #vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 
+#[[
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Floverist/exampleb
 	#REF "${VERSION}"
 	#SHA512 1de733a89cc204ef78c52304e92116562fe32f02ae642b9d51b5a34e01d898a14854ac2c88312626d8fa75764bbd1b1f77a66845a66bb79528c5e7d991e6ae67
     HEAD_REF main
+)
+]]
+
+vcpkg_from_git(
+    OUT_SOURCE_PATH SOURCE_PATH
+    URL git@github.com:Floverist/exampleb.git             # Git repository cloning URL
+    REF f1d00369ac3f4ece9315bf19e350b00ea0d12058 # commit hash (pointing to a version tag)
 )
 
 

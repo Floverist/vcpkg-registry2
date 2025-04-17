@@ -12,7 +12,7 @@ vcpkg_from_github(
 
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
-    URL git@github.com:Floverist/exampleb.git             # Git repository cloning URL
+    URL https://github.com/Floverist/exampleb.git            # Git repository cloning URL
     REF f1d00369ac3f4ece9315bf19e350b00ea0d12058 # commit hash (pointing to a version tag)
 )
 
